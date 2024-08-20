@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "rolling meadow adventures"
+  navbar:
+    pinned: true
+    right:
+      - href: index.qmd
+        text: home
+      - text: "pre-bus travels"
+        file: prebus.qmd
+      - text: "flatlands full of sand"
+        file: flatlands.qmd
+      - text: "hot & spikey"
+        file: hotspikey.qmd
+      - text: "great lakes & mighty rivers"
+        file: lakesrivers.qmd
+      - text: "trail fun"
+        file: trails.qmd
+      - text: "rainbows"
+        file: rainbows.qmd
+      - text: "transformational healing & growth"
+        file: bfthag.qmd
+
+format:
+  html:
+    css: img_style.css
+    theme: custom.scss
+    toc: true
+    link-external-newwindow: true
+
+
